@@ -1,0 +1,5 @@
+a1,b1=raw_input().split()
+a=raw_input().split()
+b=set(raw_input().split())
+c=set(raw_input().split())
+print sum([(i in b) - (i in c) for i in a])
